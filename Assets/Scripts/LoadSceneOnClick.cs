@@ -12,4 +12,12 @@ public class LoadSceneOnClick : MonoBehaviour {
 	public void StartGame() {
 		SceneManager.LoadScene ("GameScene");
 	}
+
+	public void MainMenu() {
+		SceneManager.LoadScene ("MainMenuScene");
+	}
+		
+	public void EndGame() {
+		SceneManager.LoadScene ("RestartScene");
+	}
 }
